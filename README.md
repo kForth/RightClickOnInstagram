@@ -4,8 +4,4 @@ Simple add-on to let you right click on Instagram posts. This lets you directly 
 
 ## Instalation
 
-Navigate firefox to ```about:debugging``` and click ```Load Temporary Add-on...```
-
-Select the latest release zip ```rightclickoninstagram-1.0.zip```
-
-Now go to instagram.com and right click on things.
+You can install RightClickOnInstagram from [the Firefox Add-ons website](https://addons.mozilla.org/en-CA/firefox/addon/rightclickoninstagram/).
