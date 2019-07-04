@@ -1,0 +1,22 @@
+{
+
+  "description": "Enables right-click interaction with story and post images on instagram.com. Icon made by Freepik from www.flaticon.com",
+  "manifest_version": 2,
+  "name": "RightClickOnInstagram",
+  "version": "1.0",
+  "homepage_url": "https://github.com/kforth/RightClickOnInstagram",
+  "icons": {
+    "32": "icons/right-click-32.png",
+    "64": "icons/right-click-64.png",
+    "128": "icons/right-click-128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.instagram.com/*"],
+      "js": ["src/enable-right-click.js"]
+    }
+  ]
+
+}
+
